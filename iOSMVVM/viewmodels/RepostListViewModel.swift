@@ -8,6 +8,6 @@
 
 import UIKit
 
-class GitHubReposViewModel: NSObject {
+class RepostListViewModel: NSObject {
 
 }

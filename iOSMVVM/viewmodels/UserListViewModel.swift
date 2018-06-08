@@ -8,7 +8,10 @@
 
 import UIKit
 
-struct GitHubUserViewModel {
+struct UserListViewModel {
     
-  
+    var users :[User]
+    init(users :[User]) {
+        self.users = users
+    }
 }
