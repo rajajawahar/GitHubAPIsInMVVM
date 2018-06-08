@@ -20,6 +20,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let user = userList[indexPath.row]
         cell.name.text = user.login
         cell.url.text = user.followersUrl
+        cell.avatar.imageFromUrl(urlString: user.avatarUrl!)
+        cell.avatar.layer.cornerRadius = cell.avatar.frame.size.width / 2;
+        cell.avatar.layer.masksToBounds = true;
         return cell
         
     }

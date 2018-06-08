@@ -25,6 +25,7 @@
 		AC56503820C7DF5400F44A2E /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56503720C7DF5400F44A2E /* Repos.swift */; };
 		ACAD2A7B20CA57080065C6A0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD2A7A20CA57080065C6A0 /* APIManager.swift */; };
 		ACAD2A7E20CA65BA0065C6A0 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD2A7D20CA65BA0065C6A0 /* UserTableViewCell.swift */; };
+		ACAD2A8120CA844E0065C6A0 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD2A8020CA844E0065C6A0 /* ImageViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		AC56503720C7DF5400F44A2E /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
 		ACAD2A7A20CA57080065C6A0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		ACAD2A7D20CA65BA0065C6A0 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		ACAD2A8020CA844E0065C6A0 /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
 		CA57487CC66FE45E425843D1 /* Pods-iOSMVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMVVMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSMVVMUITests/Pods-iOSMVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0AABB67C14391CF40E06C9B /* Pods-iOSMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSMVVM/Pods-iOSMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		E716A834F97A0B215A4D488D /* Pods_iOSMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +155,7 @@
 		AC46B8D020760A8E00F7B79B /* iOSMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				ACAD2A7F20CA84220065C6A0 /* extension */,
 				ACAD2A7C20CA65870065C6A0 /* tablecell */,
 				ACAD2A7920CA56E00065C6A0 /* network */,
 				AC56503420C7BB6400F44A2E /* model */,
@@ -227,6 +230,14 @@
 				ACAD2A7D20CA65BA0065C6A0 /* UserTableViewCell.swift */,
 			);
 			path = tablecell;
+			sourceTree = "<group>";
+		};
+		ACAD2A7F20CA84220065C6A0 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD2A8020CA844E0065C6A0 /* ImageViewExtension.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -524,6 +535,7 @@
 				AC56503320C7B87C00F44A2E /* UserDetailsViewController.swift in Sources */,
 				ACAD2A7B20CA57080065C6A0 /* APIManager.swift in Sources */,
 				ACAD2A7E20CA65BA0065C6A0 /* UserTableViewCell.swift in Sources */,
+				ACAD2A8120CA844E0065C6A0 /* ImageViewExtension.swift in Sources */,
 				AC56502E20C7AEF900F44A2E /* RepostListViewModel.swift in Sources */,
 				AC46B90020760ED000F7B79B /* UserListViewModel.swift in Sources */,
 				AC46B8D220760A8E00F7B79B /* AppDelegate.swift in Sources */,
