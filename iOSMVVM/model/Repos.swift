@@ -8,11 +8,10 @@
 
 import UIKit
 
-class Repos: NSObject {
+struct Repos: Codable {
     
     var id : Int?
     var name : String?
-    var fullName :String?
+    var description :String?
     
-   
 }

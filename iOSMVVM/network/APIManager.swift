@@ -25,4 +25,20 @@ class APIManager: NSObject {
         }
         return userList
     }
+    
+    
+    func getReposList(url : String) -> [Repos]{
+        var userList : [Repos] = [Repos]()
+        Alamofire.request(url)
+            .responseJSON { response in
+                do {
+                    let decoder = JSONDecoder()
+                    let user = try decoder.decode([Repos].self, from: response.data!)
+                    userList.append(contentsOf: user)
+                } catch let err {
+                    print("Err", err)
+                }
+        }
+        return userList
+    }
 }

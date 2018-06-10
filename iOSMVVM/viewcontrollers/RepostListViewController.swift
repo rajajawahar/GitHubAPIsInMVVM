@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserDetailsViewController: UIViewController {
+class RepostListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

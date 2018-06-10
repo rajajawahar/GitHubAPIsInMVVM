@@ -85,11 +85,27 @@
                     </view>
                     <connections>
                         <outlet property="userTableView" destination="EAK-kq-gYY" id="I7q-zw-qBU"/>
+                        <segue destination="fna-L0-qvX" kind="show" id="507-hV-WYw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="117.39130434782609"/>
+        </scene>
+        <!--Repost List View Controller-->
+        <scene sceneID="OLe-qh-k72">
+            <objects>
+                <viewController id="fna-L0-qvX" customClass="RepostListViewController" customModule="iOSMVVM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T9r-QM-Bj8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="me4-hT-i20"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hG3-28-BiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="115"/>
         </scene>
     </scenes>
 </document>
