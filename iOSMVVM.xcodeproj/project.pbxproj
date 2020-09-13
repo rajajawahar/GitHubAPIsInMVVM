@@ -252,7 +252,6 @@
 				AC46B8CB20760A8E00F7B79B /* Frameworks */,
 				AC46B8CC20760A8E00F7B79B /* Resources */,
 				AE3E0D338EC2C0F27A82C967 /* [CP] Embed Pods Frameworks */,
-				D2243EF5A9F9E2B4A5A507C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,8 +270,6 @@
 				AC46B8DE20760A8F00F7B79B /* Sources */,
 				AC46B8DF20760A8F00F7B79B /* Frameworks */,
 				AC46B8E020760A8F00F7B79B /* Resources */,
-				5FFB8027FC9C41EAA63AA0CE /* [CP] Embed Pods Frameworks */,
-				01A50F3E7D736BA8A5BEF905 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,8 +289,6 @@
 				AC46B8E920760A8F00F7B79B /* Sources */,
 				AC46B8EA20760A8F00F7B79B /* Frameworks */,
 				AC46B8EB20760A8F00F7B79B /* Resources */,
-				3E482EB8F877D6460D7D5087 /* [CP] Embed Pods Frameworks */,
-				1A90B4A2203302F0A69069FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -376,66 +371,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01A50F3E7D736BA8A5BEF905 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSMVVMTests/Pods-iOSMVVMTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1A90B4A2203302F0A69069FC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSMVVMUITests/Pods-iOSMVVMUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E482EB8F877D6460D7D5087 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSMVVMUITests/Pods-iOSMVVMUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5FFB8027FC9C41EAA63AA0CE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSMVVMTests/Pods-iOSMVVMTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		66E2A118045B14979456CB9F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -495,32 +430,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOSMVVM/Pods-iOSMVVM-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSMVVM/Pods-iOSMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSMVVM/Pods-iOSMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSMVVM/Pods-iOSMVVM-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D2243EF5A9F9E2B4A5A507C7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSMVVM/Pods-iOSMVVM-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSMVVM/Pods-iOSMVVM-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
